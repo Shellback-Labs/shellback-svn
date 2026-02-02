@@ -21,11 +21,24 @@ Missing TortoiseSVN's right-click efficiency? Shellback SVN brings the classic f
 - **TortoiseSVN-Style**: Familiar visual feedback matching desktop SVN clients
 
 ### Core Operations
-- **SVN Update**: Update files or entire working copy
-- **SVN Commit**: Commit dialog with message history and automatic detection of new/deleted files
+
+#### SVN Update
+![SVN Update Demo](resources/rightclick-update.gif)
+
+Update files or entire working copy
+
+#### SVN Commit
+![SVN Commit Demo](resources/rightclick-commit.gif)
+
+Commit dialog with message history and automatic detection of new/deleted files
+
+#### SVN Revert
+![SVN Revert Demo](resources/rightclick-revert.gif)
+
+Revert single or multiple files with confirmation dialogs
+
 - **Show Log**: Three-pane log viewer displaying commit history, messages, and changed files
 - **Conflict Resolution**: Visual conflict panel with resolution options (Use Mine/Theirs/Edit/Diff)
-- **Revert**: Revert single or multiple files with confirmation dialogs
 
 ### TortoiseSVN-Style Workflows
 - **Pre-Commit Update Check**: Detects out-of-date working copy before committing, with one-click update option
