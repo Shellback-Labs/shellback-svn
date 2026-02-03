@@ -2,6 +2,32 @@
 
 All notable changes to the Shellback SVN extension will be documented in this file.
 
+## [0.5.0] - 2026-02-04
+
+### Fixed
+- Fixed file names with non-ASCII characters (e.g., Chinese) displaying incorrectly in all file lists
+- **Fixed checkbox behavior:** Clicking file name in Commit/Revert dialogs no longer toggles checkbox - only direct checkbox clicks affect selection state
+- **Fixed cursor style:** File list items in Commit/Revert dialogs no longer show pointer cursor when hovering, as clicking them doesn't perform any action
+- **Fixed text selection:** File names in all dialogs (Commit/Revert) can no longer be accidentally selected when hovering or clicking
+
+### Improved
+- **Context menu availability:** SVN operations now also available in editor tab context menu (right-click on file tabs) for easier access
+- **Revert page:** Moved single file revert to context menu, removed redundant buttons, fixed confirmation dialog button count
+- Improved file list layout in commit dialog to use available space efficiently
+- Added revert option to file context menu in commit dialog
+- Updated context menu text for better clarity
+- **File list color coding:** Applied consistent status-based colors to file names in Revert and Add dialogs (matching Commit dialog style)
+- **File list typography:** Unified font style (normal weight) for file names across all dialogs (Commit/Revert/Add)
+
+## [0.4.3] - 2026-02-03
+
+### Changed
+- Changed pre-commit behavior to match TortoiseSVN: now detects out-of-date errors during commit and offers to update and retry (using QuickPick for better UX)
+- Removed `checkUpdateBeforeCommit` configuration (out-of-date handling is now always enabled, following TortoiseSVN behavior)
+
+### Fixed
+- Fixed commit page file list showing SVN output information lines (Changelist and Summary of conflicts) as files
+
 ## [0.4.2] - 2026-02-03
 
 ### Improved
