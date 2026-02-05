@@ -1,26 +1,20 @@
 # Shellback SVN
 
+[![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/Shellback.shellback-svn?label=VS%20Code%20Marketplace&color=007ACC)](https://marketplace.visualstudio.com/items?itemName=Shellback.shellback-svn)
+[![OpenVSX](https://img.shields.io/open-vsx/v/Shellback/shellback-svn?label=OpenVSX&color=007ACC)](https://open-vsx.org/extension/Shellback/shellback-svn)
+[![VS Code Version](https://img.shields.io/badge/VS%20Code-%3E%3D1.80.0-blue)](https://code.visualstudio.com/)
+[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-success)](https://code.visualstudio.com/)
+[![GitHub Issues](https://img.shields.io/github/issues/shellback-labs/shellback-svn)](https://github.com/shellback-labs/shellback-svn/issues)
+
 **The familiar context-menu workflow, built for VS Code.**
 
 Missing TortoiseSVN's right-click efficiency? Shellback SVN brings the classic file-tree-driven SVN workflow to VS Code—no command palette required, no learning curve, just the tools you need right where you expect them.
 
-## ✨ What Makes Shellback Different
+## 🚀 Features
 
-- **Context-First Design**: Right-click files/folders in Explorer to access all SVN commands
-- **TortoiseSVN Parity**: Pre-commit update checks, visual log viewer, conflict resolution—all familiar workflows
-- **Dual-Mode Commands**: Operations on selected items or entire working copy (Alt+Click for root operations)
-- **Zero Configuration**: Uses your existing SVN CLI installation—no server setup, no authentication hassle
-- **Lightweight & Fast**: Direct CLI integration with no bloat or telemetry
+#### TortoiseSVN-Style
 
-## 🚀 Key Features
-
-### Icon Overlays/Status Badges
-- **Status Indicators**: Files show their SVN status directly in Explorer (M/A/D/C/U/!)
-- **Color Coding**: Modified files appear in blue, added in green, conflicts in orange
-- **Folder Indicators**: Folders show a dot when containing modified files
-- **TortoiseSVN-Style**: Familiar visual feedback matching desktop SVN clients
-
-### Core Operations
+Familiar visual feedback matching desktop SVN clients
 
 #### SVN Update
 ![SVN Update Demo](resources/rightclick-update.gif)
@@ -39,16 +33,6 @@ Revert single or multiple files with confirmation dialogs
 
 - **Show Log**: Three-pane log viewer displaying commit history, messages, and changed files
 - **Conflict Resolution**: Visual conflict panel with resolution options (Use Mine/Theirs/Edit/Diff)
-
-### TortoiseSVN-Style Workflows
-- **Pre-Commit Update Check**: Detects out-of-date working copy before committing, with one-click update option
-- **Auto-Add/Delete**: Automatically detects and handles unversioned and missing files during commit
-- **Commit Message History**: Dropdown menu for reusing recent commit messages
-
-### Additional Commands
-- **SVN Add**: Add unversioned files to version control
-- **SVN Delete**: Mark files for deletion from repository
-- **SVN Cleanup**: Fix interrupted operations and working copy locks
 
 ## 📋 Requirements
 
@@ -73,7 +57,7 @@ After installation, restart VS Code to ensure it recognizes the SVN command.
 3. **Right-click** any file or folder in the Explorer view
 4. **Select** SVN commands from the context menu
 
-**Tip**: Hold `Alt` (macOS: `Option`) while clicking menu items to perform operations on the entire working copy root.
+**Tip**: Hold `Alt` (macOS: `Option`) while clicking menu items to perform operations on the current workspace root (the folder you have open).
 
 ## 🤝 Feedback & Support
 
