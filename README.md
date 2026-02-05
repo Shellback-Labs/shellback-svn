@@ -1,10 +1,12 @@
 # Shellback SVN
 
+![TortoiseSVN-Style](https://img.shields.io/badge/TortoiseSVN%20❤️-red)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-success)
 [![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/Shellback.shellback-svn?label=VS%20Code%20Marketplace&color=007ACC)](https://marketplace.visualstudio.com/items?itemName=Shellback.shellback-svn)
 [![OpenVSX](https://img.shields.io/open-vsx/v/Shellback/shellback-svn?label=OpenVSX&color=007ACC)](https://open-vsx.org/extension/Shellback/shellback-svn)
-[![VS Code Version](https://img.shields.io/badge/VS%20Code-%3E%3D1.80.0-blue)](https://code.visualstudio.com/)
-[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-success)](https://code.visualstudio.com/)
 [![GitHub Issues](https://img.shields.io/github/issues/shellback-labs/shellback-svn)](https://github.com/shellback-labs/shellback-svn/issues)
+
+[English](./README.md) | [简体中文](./README.zh-CN.md) | [繁體中文](./README.zh-TW.md) | [日本語](./README.ja.md) | [한국어](./README.ko.md)
 
 **The familiar context-menu workflow, built for VS Code.**
 
