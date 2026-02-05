@@ -2,6 +2,15 @@
 
 All notable changes to the Shellback SVN extension will be documented in this file.
 
+## [0.6.0] - 2026-02-05
+
+### Added
+- **Update Page:** Automatically opens after Update completes, showing updated files with status indicators
+- **Commit Page:** Added "Delete" option in context menu for unversioned files (status 'U'). Unversioned files can now be deleted directly from the Commit page instead of using Revert (which doesn't apply to unversioned files)
+
+### Fixed
+- **Windows GBK encoding:** Fixed garbled text in filenames on Windows by properly decoding GBK encoding output from SVN CLI using iconv-lite library.
+
 ## [0.5.2] - 2026-02-05
 
 ### Changed
