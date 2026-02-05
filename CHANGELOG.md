@@ -2,6 +2,23 @@
 
 All notable changes to the Shellback SVN extension will be documented in this file.
 
+## [0.5.2] - 2026-02-05
+
+### Changed
+- **Plugin icon and README:** Updated extension icon and README information
+
+## [0.5.1] - 2026-02-05
+
+### Added
+- **Show Log: Copy message button** - Added a "Copy message" button in the log viewer's message pane (right side) to quickly copy commit messages to clipboard
+
+### Fixed
+- **Root commands scope:** All command-palette "Root" operations (Commit Root, Update Root, Revert Root, Show Log Root, Add Root, Resolve Root, Cleanup Root) now operate on the **current VSCode workspace folder root** instead of the SVN working copy root. When you open a subfolder of an SVN repo, Root commands now correctly scope to that opened folder.
+- **Show Log: File name colors** - Fixed file names in the changed files list not displaying status-based colors (now matches Commit page style with color-coded file names for A/M/D/R statuses)
+
+### Improved
+- **UI styling:** Removed divider lines (borders) from all webview pages (Commit, Revert, Log, Add, Conflict) for a cleaner, more unified appearance
+
 ## [0.5.0] - 2026-02-04
 
 ### Fixed
