@@ -2,6 +2,14 @@
 
 All notable changes to the Shellback SVN extension will be documented in this file.
 
+## [0.6.3] - 2026-02-06
+
+### Changed
+- Updated multilingual text
+
+### Fixed
+- Fixed GBK encoding issue in diff panel
+
 ## [0.6.2] - 2026-02-06
 
 ### Changed
