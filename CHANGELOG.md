@@ -2,6 +2,17 @@
 
 All notable changes to the Shellback SVN extension will be documented in this file.
 
+## [0.6.2] - 2026-02-06
+
+### Changed
+- **Conflict Resolution Page:** Removed three "Diff With" options (Diff with Mine, Diff with Theirs, Diff with Base) from the context menu
+- **Conflict Resolution Page:** Removed checkmark symbols (✓) from "Use Mine", "Use Theirs", and "Use Base" menu items
+
+## [0.6.1] - 2026-02-05
+
+### Added
+- **Localization support:** Added internationalization (i18n) support for the extension
+
 ## [0.6.0] - 2026-02-05
 
 ### Added

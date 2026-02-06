@@ -33,8 +33,15 @@ Commit dialog with message history and automatic detection of new/deleted files
 
 Revert single or multiple files with confirmation dialogs
 
-- **Show Log**: Three-pane log viewer displaying commit history, messages, and changed files
-- **Conflict Resolution**: Visual conflict panel with resolution options (Use Mine/Theirs/Edit/Diff)
+#### Show Log
+![Show Log Screenshot](resources/rightclick-showlog.png)
+
+Three-pane log viewer displaying commit history, messages, and changed files
+
+#### Conflict Resolution
+![Conflict Screenshot](resources/resolve-conflicts.png)
+
+Visual conflict panel with resolution options (Use Mine/Theirs/Edit/Diff)
 
 ## 📋 Requirements
 
