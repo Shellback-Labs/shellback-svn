@@ -10,7 +10,9 @@
 
 **The familiar context-menu workflow, built for VS Code.**
 
-Missing TortoiseSVN's right-click efficiency? Shellback SVN brings the classic file-tree-driven SVN workflow to VS Code—no command palette required, no learning curve, just the tools you need right where you expect them.
+Execute SVN commands directly from the VS Code file explorer via a Tortoise-style context menu.
+
+Note: This extension requires the SVN CLI to be installed and added to your system PATH.
 
 ## 🚀 Features
 

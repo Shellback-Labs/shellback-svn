@@ -2,6 +2,35 @@
 
 All notable changes to the Shellback SVN extension will be documented in this file.
 
+## [0.7.1] - 2026-02-07
+
+### Changed
+- Updated README documentation
+
+## [0.7.0] - 2026-02-07
+
+### Added
+- **File list context menu enhancements** - Added basic file operations to context menus in Commit, Revert, ShowLog, and Update pages:
+  - **Open** - Open file in editor
+  - **Reveal In File Explorer** - Show file in system file explorer
+  - **Copy Path** - Copy full file path to clipboard
+  - **Copy Relative Path** - Copy relative file path to clipboard
+- All operations use VSCode's native APIs for consistent behavior
+- **Revert Page: List selection** - Added file list selection with multi-select (Ctrl/Cmd), range select (Shift), and Space key to toggle revert state for selected files
+
+### Changed
+- **Revert Page:** Changed default file selection state to all unchecked
+
+## [0.6.5] - 2026-02-07
+
+### Added
+- **Commit Page: List selection** - Added file list selection with multi-select (Ctrl/Cmd), range select (Shift), and Space key to toggle commit state for selected files
+
+## [0.6.4] - 2026-02-07
+
+### Changed
+- **Commit Page:** Changed default file selection state to all unchecked
+
 ## [0.6.3] - 2026-02-06
 
 ### Changed

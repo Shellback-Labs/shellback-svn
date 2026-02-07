@@ -10,7 +10,9 @@
 
 **熟悉的右鍵選單工作流程，專為 VS Code 打造。**
 
-懷念 TortoiseSVN 的右鍵效率？Shellback SVN 將經典的檔案樹驅動 SVN 工作流程帶到 VS Code——無需命令面板，無需學習曲線，工具就在您期望的位置。
+透過 Tortoise 風格的上下文選單，直接從 VS Code 檔案總管執行 SVN 命令。
+
+注意：此擴充功能需要安裝 SVN CLI 並將其新增至系統 PATH 中。
 
 ## 🚀 功能特色
 
