@@ -8,8 +8,6 @@
 
 [English](./README.md) | [简体中文](./README.zh-CN.md) | [繁體中文](./README.zh-TW.md) | [日本語](./README.ja.md) | [한국어](./README.ko.md)
 
-**熟悉的右键菜单工作流，专为 VS Code 打造。**
-
 通过 Tortoise 风格的上下文菜单，直接从 VS Code 文件资源管理器执行 SVN 命令。
 
 注意：此扩展需要安装 SVN CLI 并将其添加到系统 PATH 中。

@@ -8,8 +8,6 @@
 
 [English](./README.md) | [简体中文](./README.zh-CN.md) | [繁體中文](./README.zh-TW.md) | [日本語](./README.ja.md) | [한국어](./README.ko.md)
 
-**熟悉的右鍵選單工作流程，專為 VS Code 打造。**
-
 透過 Tortoise 風格的上下文選單，直接從 VS Code 檔案總管執行 SVN 命令。
 
 注意：此擴充功能需要安裝 SVN CLI 並將其新增至系統 PATH 中。

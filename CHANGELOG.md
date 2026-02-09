@@ -2,6 +2,17 @@
 
 All notable changes to the Shellback SVN extension will be documented in this file.
 
+
+## [0.7.2] - 2026-02-09
+
+### Added
+- **Show Log Page:** Added configuration option `shellback-svn.log.showFullPathInTab` to control whether tab title shows full path or just filename/folder name (default: false, shows only filename/folder name)
+- **Commit & Revert Pages:** Context menu operations now support batch operations when multiple files are selected
+- **Update Page:** Context menu operations now support batch operations when multiple files are selected
+
+### Changed
+- **Show Log Page:** Tab title now only displays filename or folder name by default instead of full path
+
 ## [0.7.1] - 2026-02-07
 
 ### Changed

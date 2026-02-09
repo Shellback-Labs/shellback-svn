@@ -8,8 +8,6 @@
 
 [English](./README.md) | [简体中文](./README.zh-CN.md) | [繁體中文](./README.zh-TW.md) | [日本語](./README.ja.md) | [한국어](./README.ko.md)
 
-**The familiar context-menu workflow, built for VS Code.**
-
 Execute SVN commands directly from the VS Code file explorer via a Tortoise-style context menu.
 
 Note: This extension requires the SVN CLI to be installed and added to your system PATH.

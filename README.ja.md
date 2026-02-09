@@ -8,8 +8,6 @@
 
 [English](./README.md) | [简体中文](./README.zh-CN.md) | [繁體中文](./README.zh-TW.md) | [日本語](./README.ja.md) | [한국어](./README.ko.md)
 
-**VS Code のための、使い慣れたコンテキストメニューワークフロー。**
-
 Tortoise スタイルのコンテキストメニューから、VS Code ファイルエクスプローラーで直接 SVN コマンドを実行します。
 
 注意：この拡張機能を使用するには、SVN CLI がインストールされ、システムの PATH に追加されている必要があります。

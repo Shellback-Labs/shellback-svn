@@ -8,8 +8,6 @@
 
 [English](./README.md) | [简体中文](./README.zh-CN.md) | [繁體中文](./README.zh-TW.md) | [日本語](./README.ja.md) | [한국어](./README.ko.md)
 
-**VS Code를 위해 제작된 익숙한 컨텍스트 메뉴 워크플로우.**
-
 Tortoise 스타일의 컨텍스트 메뉴를 통해 VS Code 파일 탐색기에서 직접 SVN 명령을 실행합니다.
 
 참고: 이 확장 프로그램을 사용하려면 SVN CLI가 설치되어 시스템 PATH에 추가되어 있어야 합니다.
