@@ -3,6 +3,11 @@
 All notable changes to the Shellback SVN extension will be documented in this file.
 
 
+## [0.7.3] - 2026-02-10
+
+### Changed
+- **Update Page:** File list status indicators now use full words (e.g. Updated, Added, Modified, Deleted, Merged, Conflicted, Replaced) instead of single-letter codes (U, A, M, D, G, C, R) to avoid ambiguity with other pages
+
 ## [0.7.2] - 2026-02-09
 
 ### Added
