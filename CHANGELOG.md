@@ -3,6 +3,12 @@
 All notable changes to the Shellback SVN extension will be documented in this file.
 
 
+## [0.7.4] - 2026-02-11
+
+### Changed
+- **Show Log Page:** Message list displayed in columns (Revision, Author, Date, Message); date format YYYY-MM-DD HH:mm:ss; revision shown as number only (no "r" prefix)
+- **Show Log Page:** Message list and file list text are no longer selectable (use Copy message / context menu to copy)
+
 ## [0.7.3] - 2026-02-10
 
 ### Changed
