@@ -3,6 +3,11 @@
 All notable changes to the Shellback SVN extension will be documented in this file.
 
 
+## [0.7.5] - 2026-02-12
+
+### Added
+- **Show Log Page:** Message list (commit list) entries now have a right-click context menu "Copy to clipboard" with: Full data, Full data without changed paths, Revisions, Authors, Messages
+
 ## [0.7.4] - 2026-02-11
 
 ### Changed
