@@ -3,6 +3,11 @@
 All notable changes to the Shellback SVN extension will be documented in this file.
 
 
+## [0.8.1] - 2026-04-04
+
+### Changed
+- **Show Log Page:** Related files (matching the current file or folder) are now displayed at the top of the changed files list; unrelated files appear below a divider in a dimmed style
+
 ## [0.7.5] - 2026-02-12
 
 ### Added
